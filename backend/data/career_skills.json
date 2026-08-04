@@ -1,0 +1,23 @@
+{
+  "AI Engineer": [
+    "Python",
+    "Machine Learning",
+    "NLP",
+    "SQL",
+    "Git",
+    "FastAPI"
+  ],
+
+  "Data Scientist": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Power BI"
+  ],
+
+  "Data Analyst": [
+    "Python",
+    "SQL",
+    "Power BI"
+  ]
+}
