@@ -9,6 +9,7 @@ from career_similarity import predict_career
 from gap_analyzer import find_skill_gap
 from roadmap_generator import generate_roadmap
 from resume_summary import generate_summary
+from feedback_engine import generate_feedback
 from skill_category import categorize
 
 app = FastAPI(title="NEXA API")
@@ -52,6 +53,7 @@ async def analyze(
 
         # Learning roadmap
         roadmap = generate_roadmap(missing)
+        feedback = generate_feedback(skills)
 
         # AI Summary
         summary = generate_summary(skills, score)
@@ -60,6 +62,7 @@ async def analyze(
         categories = categorize(skills)
 
         return {
+            "feedback": feedback,
 
             "career": career,
 
@@ -84,6 +87,7 @@ async def analyze(
                 "Data Scientist",
 
                 "Backend Developer"
+                
 
             ]
 
