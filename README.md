@@ -23,7 +23,7 @@ This project was developed primarily to learn and practice:
 - Basic NLP concepts
 - AI-based career recommendation systems
 
-> **Note:** This is a personal learning project and is not intended to provide professional career advice. The recommendation logic is simplified and designed for educational purposes.
+> **Note:** This is a personal learning project and is not intended to provide professional career advice. The recommendation logic is simplified and designed for educational purposes only.
 
 ---
 
